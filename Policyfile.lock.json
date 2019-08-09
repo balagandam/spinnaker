@@ -1,0 +1,51 @@
+{
+  "revision_id": "83c00c1e3d53185eb7f4c56c8b745abc1f9b674367ff0980cb9f57e3be5f1794",
+  "name": "spinnaker",
+  "run_list": [
+    "recipe[spinnaker::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "spinnaker": {
+      "version": "0.1.0",
+      "identifier": "1dd34c17fee8d7f2a8817c2efa075e3e54b04e5d",
+      "dotted_decimal_identifier": "8395098098165975.68302218451679751.103621801823837",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "da0ddac3a031b6799428a8ad768eb0446fda7dc1",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "spinnaker",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "spinnaker (0.1.0)": [
+
+      ]
+    }
+  }
+}

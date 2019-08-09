@@ -1,0 +1,12 @@
+halyard:
+  halconfig:
+    directory: <%= @halconfig_dir %>
+
+spinnaker:
+  artifacts:
+    debianRepository: <%= @spinnaker_repository_url %>
+    dockerRegistry: <%= @spinnaker_docker_registry %>
+    googleImageProject: <%= @spinnaker_gce_project %> 
+  config:
+    input:
+      bucket: <%= @config_bucket %>
